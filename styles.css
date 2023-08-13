@@ -1,0 +1,27 @@
+.project-card {
+  width: 90%;
+}
+
+.contactimg {
+  width: auto;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.spacer {
+  height: 56px;
+}
+
+.tool-icon {
+  height: 40px;
+  width: auto;
+}
+
+.headshot {
+  max-width: 450px;
+  height: auto;
+}
+
+.icons-cont {
+  width: 70px;
+}

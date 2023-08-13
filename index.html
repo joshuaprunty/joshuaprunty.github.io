@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Josh Prunty</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg position-fixed bg-body top-0 vw-100">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid my-0 bg-body-tertiary spacer"></div>
+
+    <!-- HOME -->
+    <div class="bg-body-tertiary" id="Home">
+      <div class="container-lg text-center py-5">
+        <div class="row my-5 d-flex flex-column-reverse flex-md-row">
+          <div class="col-md-2"></div>
+          <div id="hero-text" class="col-md-4">
+            <h1 class="text-center text-md-start">Hi, I'm Josh.</h1>
+            <p class="fw-light fs-5 text-center text-md-start">
+              A Junior studying computer science at Northwestern University
+            </p>
+            <div class="text-center text-md-start">
+              <img src="./assets/linkedin.png" class="mx-2" />
+              <img src="./assets/git.png" class="mx-2" />
+            </div>
+          </div>
+          <div class="col-md-4 text-center d-flex">
+            <img
+              src="./assets/headshot.png"
+              class="mb-4 mb-md-0 rounded-circle w-75 border-black border-5 mx-auto align-self-center headshot"
+            />
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="bg-body" id="About">
+      <div class="container-lg text-center py-5">
+        <div class="row d-flex flex-column flex-md-row">
+          <div
+            class="col-md-6 text-center d-flex align-items-center justify-content-center"
+          >
+            <img src="./assets/campus.jpeg" class="w-100 rounded-3 my-3" />
+          </div>
+          <div
+            class="col-md-6 text-center text-md-start d-flex flex-column justify-content-center"
+          >
+            <h2 class="w-75 mx-auto">About Me</h2>
+            <p class="w-75 mx-auto text-muted">
+              As a Junior at Northwestern University, I've spent the last few
+              years diving head-first into developing my programming skills. My
+              biggests interests are in Full-Stack web development, Machine
+              Learning with Python, and any way programming can help automate
+              daily tasks. I pride myself on clean, maintainable code and an eye
+              for beautiful and responsive UX design. I thrive in collaborative
+              environments, being a member of the KTP Tech Professional
+              Fraternity and a team mentor in the LAUNCH Entrepreneurship
+              Program.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="bg-body-tertiary" id="Projects">
+      <div class="container-lg text-center py-5">
+        <div class="row">
+          <h2>Projects</h2>
+          <hr class="w-75 mx-auto" />
+        </div>
+
+        <div class="row text-center">
+          <div
+            class="project-card mx-auto my-5 p-3 shadow rounded-4 d-flex flex-column-reverse flex-md-row"
+          >
+            <div
+              class="col-md-6 px-4 d-flex flex-column justify-content-center"
+            >
+              <h3>Renu - NU Course Recommender</h3>
+              <p>
+                Renu is an in-development web app which uses Northwestern’s
+                course data APIs together with an individualized student
+                preferences quiz to help students find classes that best fit
+                their academic needs
+              </p>
+              <div class="d-flex justify-content-evenly my-2">
+                <div class="d-block w-25">
+                  <img src="/assets/react.png" class="tool-icon" />
+                  <p class="fw-light">React</p>
+                </div>
+                <div class="d-block w-25">
+                  <img src="/assets/js.png" class="tool-icon" />
+                  <p class="fw-light">JavaScript</p>
+                </div>
+                <div class="d-block w-25">
+                  <img src="/assets/mong.png" class="tool-icon" />
+                  <p class="fw-light">MongoDB</p>
+                </div>
+              </div>
+              <a
+                href="https://github.com/joshuaprunty/renu"
+                target="_blank"
+                class="btn btn-outline-secondary mx-auto d-flex align-items-center justify-content-center py-0"
+              >
+                <span class="me-2 text-black">Code</span>
+                <img src="./assets/git.png" class="h-50" />
+              </a>
+            </div>
+            <div class="col-10 mx-auto col-md-6 mb-4 mb-md-0">
+              <img src="./assets/RENU.png" class="rounded-2 w-100" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div
+            class="project-card mx-auto my-5 p-3 shadow rounded-4 d-flex flex-column-reverse flex-md-row-reverse"
+          >
+            <div
+              class="col-md-6 px-4 d-flex flex-column justify-content-center"
+            >
+              <h3>SMS Updates for NU Dining</h3>
+              <p>
+                A Python script utilizing web automation and scraping to collect
+                clean, shortened data from Northwestern’s DineOnCampus site, and
+                sends an automated SMS message with TextBelt detailing each
+                day’s main courses at each location.
+              </p>
+              <div class="d-flex justify-content-center my-2">
+                <div class="d-block me-4 w-25">
+                  <img src="/assets/python.png" class="tool-icon" />
+                  <p class="fw-light">Python</p>
+                </div>
+                <div class="d-block ms-4 w-25">
+                  <img src="/assets/selenium.png" class="tool-icon" />
+                  <p class="fw-light">Selenium</p>
+                </div>
+              </div>
+              <a
+                href="https://github.com/joshuaprunty/dininghall_scraper"
+                target="_blank"
+                class="btn btn-outline-secondary mx-auto d-flex align-items-center justify-content-center py-0"
+              >
+                <span class="me-2 text-black">Code</span>
+                <img src="./assets/git.png" class="h-50" />
+              </a>
+            </div>
+            <div class="col-10 mx-auto col-md-6 mb-4 mb-md-0">
+              <img src="./assets/VSC.png" class="w-100 rounded-2 my-auto" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div
+            class="project-card mx-auto my-5 p-3 shadow rounded-4 d-flex flex-column-reverse flex-md-row"
+          >
+            <div
+              class="col-md-6 px-4 d-flex flex-column justify-content-center"
+            >
+              <h3>Classic Desktop Games Library</h3>
+              <p>
+                A collection of three classic 2D games - 2048, Reversi
+                (Othello), and BrickBreaker, reacreated in C++ with the GE211
+                engine.
+              </p>
+              <div class="d-flex justify-content-around my-2">
+                <div class="d-block w-25">
+                  <img src="/assets/c++.png" class="tool-icon" />
+                  <p class="fw-light">C++</p>
+                </div>
+              </div>
+              <a
+                href="https://github.com/joshuaprunty/2D_Games_Collection"
+                target="_blank"
+                class="btn btn-outline-secondary mx-auto d-flex align-items-center justify-content-center py-0"
+              >
+                <span class="me-2 text-black">Code</span>
+                <img src="./assets/git.png" class="h-50" />
+              </a>
+            </div>
+            <div class="col-10 mx-auto col-md-6 mb-4 mb-md-0">
+              <img src="./assets/BRICK.png" class="w-100 rounded-2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="bg-body" id="Contact">
+      <div class="container-lg text-center py-5">
+        <div class="row text-center px-5">
+          <h2 class="mb-3">Contact</h2>
+          <hr class="w-100 mb-4 mx-auto" />
+        </div>
+        <div class="row px-3 d-flex justify-content-between">
+          <div class="col-12 col-md-3 text-center ms-auto me-0">
+            <div class="d-flex mx-auto">
+              <img src="./assets/map.png" class="contactimg" />
+              <div class="text-start">
+                <p class="mb-0 fw-light">Located in</p>
+                <p>Evanston, IL</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-5 text-center ms-0 me-auto">
+            <div class="d-flex mx-auto">
+              <img src="./assets/mail.png" class="contactimg" />
+              <div class="text-start">
+                <p class="mb-0 fw-light">Email</p>
+                <p>joshprunty2025@u.northwestern.edu</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 text-center ms-auto me-0">
+            <div class="d-flex mx-auto">
+              <img src="./assets/linkedin.png" class="contactimg" />
+              <div class="text-start">
+                <p class="mb-0 fw-light">LinkedIn</p>
+                <p>joshprunty</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="bg-dark">
+      <div id="Footer" class="container-lg text-start py-4">
+        <div class="row">
+          <div class="col-md-3 text-white my-1 fw-light">Home</div>
+          <div class="col-md-3 text-white my-1 fw-light">About</div>
+          <div class="col-md-3 text-white my-1 fw-light">Projects</div>
+          <div class="col-md-3 text-white my-1 fw-light">Contact</div>
+        </div>
+
+        <div class="row">
+          <div class="col mt-3 text-white my-1 fw-lighter">
+            © 2023 Joshua Prunty. All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
