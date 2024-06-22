@@ -1,0 +1,111 @@
+.project-card {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .project-card {
+    height: 30rem;
+  }
+}
+
+.greetingtext {
+  font-size: 3.5rem;
+}
+
+.gsubtext {
+  font-size: 1.8rem;
+}
+
+.contactimg {
+  width: auto;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.spacer {
+  height: 56px;
+}
+
+.tool-icon {
+  height: 25px;
+  width: auto;
+}
+
+.headshot {
+  max-width: 450px;
+  height: auto;
+  width: 60%;
+}
+
+.icons-cont {
+  width: 70px;
+}
+
+.homeicon {
+  height: 35px;
+  width: auto;
+}
+
+.icontext {
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+.heromargin {
+  margin-top: 3.6rem;
+}
+
+.altbg-1 {
+  background-color: #f5f5f5;
+}
+
+.altbg-2 {
+  background-color: #efefef;
+}
+
+.bg-h-f {
+  background-color: #555555;
+}
+
+.txtabout {
+  font-size: 2.5rem;
+}
+
+.txtsubabout {
+  font-size: 1.1rem;
+}
+
+/* .debug {
+  border: 1px solid red;
+} */
+
+.container-lg{
+  max-width: 1150px;
+}
+
+.abtImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.w-abt {
+  width: 85%;
+}
+
+.p-card-h {
+  font-size: 1.9rem;
+}
+
+.p-card-p {
+  font-size: 1.2rem;
+}
+
+.mybtnsm {
+  height: 1.8rem;
+}
+
+.nav-link-sizer {
+  font-size: 1.2rem;
+}
