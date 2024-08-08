@@ -14,19 +14,20 @@ const WPCard = ({
   tools,
   hasCode,
   isFlipped,
+  addborder
 }) => {
   return (
-    <div className="row text-center px-4">
+    <div className="px-4 text-center row">
       <div
         className={`project-card mx-auto my-5 py-3 shadow rounded-4 d-flex flex-column-reverse ${isFlipped ? "flex-md-row" : "flex-md-row-reverse"}`}
       >
         {" "}
-        <div className="col-md-6 px-3 px-md-5 d-flex flex-column justify-content-center">
-          <h3 className="p-card-h my-2">{title}</h3>
-          <p className="p-card-p my-2">{description}</p>
-          <div className="d-flex justify-content-center mt-4 mb-2">
+        <div className="px-3 col-md-6 px-md-5 d-flex flex-column justify-content-center">
+          <h3 className="my-2 p-card-h">{title}</h3>
+          <p className="my-2 p-card-p">{description}</p>
+          <div className="mt-4 mb-2 d-flex justify-content-center">
             {tools.map((tool) => (
-              <div className="d-block mx-5">
+              <div className="mx-5 d-block">
                 <img src={tool[0]} className="tool-icon" />
                 <p className="fw-light icontext">{tool[1]}</p>
               </div>
@@ -36,26 +37,26 @@ const WPCard = ({
             <a
               href="https://github.com/joshuaprunty/dininghall_scraper"
               target="_blank"
-              className="mybtnsm btn btn-outline-secondary btn-sm mx-auto d-flex align-items-center justify-content-center py-0 mt-1 mb-2"
+              className="py-0 mx-auto mt-1 mb-2 mybtnsm btn btn-outline-secondary btn-sm d-flex align-items-center justify-content-center"
             >
-              <span className="me-2 my-0 text-black">Code</span>
+              <span className="my-0 text-black me-2">Code</span>
               <img src={GIT} className="h-50" />
             </a>
           ) : (
             <a
               href="https://bioelectronics.northwestern.edu/"
               target="_blank"
-              className="mybtnsm btn btn-outline-secondary btn-sm mx-auto d-flex align-items-center justify-content-center py-0 mt-1 mb-2"
+              className="py-0 mx-auto mt-1 mb-2 mybtnsm btn btn-outline-secondary btn-sm d-flex align-items-center justify-content-center"
             >
-              <span className="me-2 my-0 text-black">Website</span>
+              <span className="my-0 text-black me-2">Website</span>
               <img src={INTERNET} className="h-50" />
             </a>
           )}
         </div>
-        <div className="col-10 mx-auto col-md-6 mb-4 mb-md-0">
+        <div className="mx-auto mb-4 col-10 col-md-6 mb-md-0">
           <img
             src={mainImage}
-            className="w-100 rounded-4 my-auto img-fluid"
+            className={`my-auto w-100 rounded-4 img-fluid ${addborder ? "border border-secondary" : ""}`}
             style={{ objectFit: "cover", height: "100%" }}
           />
         </div>

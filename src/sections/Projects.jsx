@@ -25,6 +25,7 @@ const Projects = () => {
           tools={renuTools}
           hasCode={true}
           isFlipped={false}
+          addborder={false}
         />
         <WPCard
           mainImage={WEV}
@@ -33,6 +34,7 @@ const Projects = () => {
           tools={wevTools}
           hasCode={false}
           isFlipped={true}
+          addborder={true}
         />
         <WPCard
           mainImage={VSC}
@@ -43,6 +45,7 @@ const Projects = () => {
           tools={nduTools}
           hasCode={true}
           isFlipped={false}
+          addborder={false}
         />
         <WPCard
           mainImage={RACETRACK}
@@ -51,6 +54,7 @@ const Projects = () => {
           tools={gasTools}
           hasCode={true}
           isFlipped={true}
+          addborder={false}
         />
       </div>
     </div>
