@@ -14,7 +14,9 @@ const WPCard = ({
   tools,
   hasCode,
   isFlipped,
-  addborder
+  addborder,
+  unpub,
+  link
 }) => {
   return (
     <div className="px-4 text-center row">
@@ -35,16 +37,24 @@ const WPCard = ({
           </div>
           {hasCode ? (
             <a
-              href="https://github.com/joshuaprunty/dininghall_scraper"
+              href={link}
               target="_blank"
               className="py-0 mx-auto mt-1 mb-2 mybtnsm btn btn-outline-secondary btn-sm d-flex align-items-center justify-content-center"
             >
               <span className="my-0 text-black me-2">Code</span>
               <img src={GIT} className="h-50" />
             </a>
+          ) : unpub ? (
+            <a
+              href=""
+              target="_blank"
+              className="py-0 mx-auto mt-1 mb-2 mybtnsm btn btn-outline-secondary btn-sm d-flex align-items-center justify-content-center"
+            >
+              <span className="my-0 text-black me-2">Not yet public</span>
+            </a>
           ) : (
             <a
-              href="https://bioelectronics.northwestern.edu/"
+              href={link}
               target="_blank"
               className="py-0 mx-auto mt-1 mb-2 mybtnsm btn btn-outline-secondary btn-sm d-flex align-items-center justify-content-center"
             >

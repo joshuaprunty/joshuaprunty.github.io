@@ -26,6 +26,8 @@ const Projects = () => {
           hasCode={true}
           isFlipped={false}
           addborder={false}
+          unpub={false}
+          link="https://github.com/joshuaprunty/renu"
         />
         <WPCard
           mainImage={WEV}
@@ -35,6 +37,8 @@ const Projects = () => {
           hasCode={false}
           isFlipped={true}
           addborder={true}
+          unpub={true}
+          link=""
         />
         <WPCard
           mainImage={VSC}
@@ -46,6 +50,8 @@ const Projects = () => {
           hasCode={true}
           isFlipped={false}
           addborder={false}
+          unpub={false}
+          link="https://github.com/joshuaprunty/DHEmailer"
         />
         <WPCard
           mainImage={RACETRACK}
@@ -55,6 +61,8 @@ const Projects = () => {
           hasCode={true}
           isFlipped={true}
           addborder={false}
+          unpub={false}
+          link="https://github.com/joshuaprunty/GeneticAlgorithms"
         />
       </div>
     </div>

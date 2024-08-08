@@ -16,7 +16,7 @@ const Work = () => {
 
   return (
     <div className="altbg-2" id="Work">
-      <div className="container-lg text-center py-5 debug">
+      <div className="py-5 text-center container-lg debug">
         <SectionTitle title="Work Experience" />
         <WPCard
           mainImage={QSIB}
@@ -25,6 +25,8 @@ const Work = () => {
           tools={qsibTools}
           hasCode={false}
           isFlipped={false}
+          unpub={false}
+          link="https://bioelectronics.northwestern.edu/"
         />
       </div>
     </div>
