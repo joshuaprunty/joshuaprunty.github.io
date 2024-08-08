@@ -8,6 +8,7 @@ import REACT from "../assets/react.png";
 import JS from "../assets/js.png";
 import RUST from "../assets/rust.png";
 import NORDIC from "../assets/nordic.png";
+import FIREBASE from "../assets/firebase.png";
 
 export const contactInfo = [
   {
@@ -45,6 +46,11 @@ export const renuTools = [
   [JS, "JavaScript"],
 ];
 
+export const wevTools = [
+  [REACT, "React"],
+  [FIREBASE, "Firebase"],
+]
+
 export const abtPara = `
     As a student at NU, I've had a wide array of opportunities to
     build my programming skills and apply those skills in production
@@ -56,7 +62,7 @@ export const abtPara = `
     Professional Fraternity and a team mentor in the LAUNCH
     Entrepreneurship Program. I’m currently working at the Querrey
     Simpson Institute for Bioelectronics to develop firmware for
-    implantable sensors for the healthcare industry
+    implantable sensors for the healthcare industry.
   `;
 
   export const navItems = [

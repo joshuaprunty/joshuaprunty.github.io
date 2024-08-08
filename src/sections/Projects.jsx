@@ -8,19 +8,36 @@ import WPCard from "../components/WPCard";
 import VSC from "../assets/VSC.png";
 import RACETRACK from "../assets/racetrack.png";
 import RENU from "../assets/RENU.png";
+import WEV from "../assets/wevsite.png";
 import SectionTitle from "../components/SectionTitle";
 
-import { nduTools, gasTools, renuTools } from "../lib/utils";
+import { nduTools, gasTools, renuTools, wevTools } from "../lib/utils";
 
 const Projects = () => {
   return (
     <div className="altbg-1 " id="Projects">
-      <div className="container-lg text-center py-5 debug">
+      <div className="py-5 text-center container-lg debug">
         <SectionTitle title="Projects" />
+        <WPCard
+          mainImage={RENU}
+          title="Renu - NU Course Recommender"
+          description="A React web app that interfaces with Northwestern's course catalog APIs. Users complete a short 'quiz' to receive personalized course recommendations via a proprietary algorithm."
+          tools={renuTools}
+          hasCode={true}
+          isFlipped={false}
+        />
+        <WPCard
+          mainImage={WEV}
+          title="Wev - Artist Catalog and Licensing Platform"
+          description="A comprehensive full-stack site for cataloging and editing an artist's published tracks. Built with React and Firebase, and interfacing with Spotify and email APIs. Completed as a freelance client project."
+          tools={wevTools}
+          hasCode={false}
+          isFlipped={true}
+        />
         <WPCard
           mainImage={VSC}
           title="NU Dining Updates"
-          description="Python webscraping script and React web interface automated with
+          description="A Python webscraping script and React web interface automated with
                 AWS to send students daily dining hall menus, according to
                 customizeable preferences."
           tools={nduTools}
@@ -34,14 +51,6 @@ const Projects = () => {
           tools={gasTools}
           hasCode={true}
           isFlipped={true}
-        />
-        <WPCard
-          mainImage={RENU}
-          title="Renu - NU Course Recommender"
-          description="A React web app that interfaces with Northwestern's course catalog APIs. Users complete a short 'quiz' to receive personalized course recommendations via a proprietary algorithm."
-          tools={renuTools}
-          hasCode={true}
-          isFlipped={false}
         />
       </div>
     </div>

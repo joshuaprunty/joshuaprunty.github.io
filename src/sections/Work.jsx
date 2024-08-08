@@ -21,7 +21,7 @@ const Work = () => {
         <WPCard
           mainImage={QSIB}
           title="Querrey Simpson Institute for Bioelectronics"
-          description="Software & Data Engineering Intern. Currently working on firmware updates to optimize power consumption for an implantable ECG device."
+          description="Software & Data Engineering Intern. Currently developing early-stage firmware for an implantable sensor aimed at early detection of organ transplant rejection."
           tools={qsibTools}
           hasCode={false}
           isFlipped={false}

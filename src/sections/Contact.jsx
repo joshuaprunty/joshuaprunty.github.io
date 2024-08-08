@@ -18,7 +18,7 @@ const Contact = () => {
           {contactInfo.map((info) => (
             <div
               key={info.title}
-              className="col-12 col-md-4 d-flex mx-auto justify-content-start justify-content-md-center text-center"
+              className="col-12 col-md-4 d-flex justify-content-start justify-content-md-center text-center"
             >
               <img src={info.img} className="contactimg" alt={info.title} />
               <div className="text-start">

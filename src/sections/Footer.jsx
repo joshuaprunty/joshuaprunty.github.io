@@ -7,23 +7,23 @@ import {navItems} from "../lib/utils";
 
 const Footer = () => {
   return (
-    <div className="bg-h-f">
-      <div
-        id="Footer"
-        className="container-lg text-start py-4 debug"
-      >
-        <div className="row d-flex flex-row justify-between">
-          {navItems.map((item) => (
-            <span className="text-white my-1 fw-light">{item.name}</span>
-          ))}
-        </div>
-        <div className="row">
-          <div className="col mt-3 text-white my-1 fw-lighter">
-            © 2023 Joshua Prunty. All Rights Reserved.
-          </div>
+    <div class="altbg-2">
+    <div id="Footer" class="container-lg text-start py-4">
+      <div class="d-flex flex-row my-4 justify-content-around">
+        <p class="fw-light">Home</p>
+        <p class="fw-light">About</p>
+        <p class="fw-light">Projects</p>
+        <p class="fw-light">Work</p>
+        <p class="fw-light">Contact</p>
+      </div>
+
+      <div class="d-flex flex-row justify-content-center">
+        <div class="mt-6 mb-3 fw-lighter">
+          © 2023 Joshua Prunty. All Rights Reserved.
         </div>
       </div>
     </div>
+  </div>
   );
 };
 

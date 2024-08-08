@@ -22,7 +22,7 @@ const Hero = () => {
                 Hi, I'm Josh.
               </h1>
               <p className="fw-light gsubtext text-center text-md-start mb-4">
-                A Senior studying computer science at Northwestern University
+                A Senior studying computer science at Northwestern University.
               </p>
               <div className="text-center text-md-start">
                 <a href="https://www.linkedin.com/in/joshua-prunty/">
