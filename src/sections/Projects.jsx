@@ -37,8 +37,8 @@ const Projects = () => {
           hasCode={false}
           isFlipped={true}
           addborder={true}
-          unpub={true}
-          link=""
+          unpub={false}
+          link="https://wev.world"
         />
         <WPCard
           mainImage={VSC}
