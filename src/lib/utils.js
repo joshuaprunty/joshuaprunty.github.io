@@ -9,6 +9,8 @@ import JS from "../assets/js.png";
 import RUST from "../assets/rust.png";
 import NORDIC from "../assets/nordic.png";
 import FIREBASE from "../assets/firebase.png";
+import NEXTJS from "../assets/nextjs.svg";
+import OPENAI from "../assets/openai.webp";
 
 export const contactInfo = [
   {
@@ -33,6 +35,12 @@ export const qsibTools = [
   [NORDIC, "Nordic Semiconductors"]
 ];
 
+export const profoundTools = [
+  [REACT, "React"],
+  [NEXTJS, "NextJS"],
+  [OPENAI, "OpenAI API"],
+];
+
 export const nduTools = [
   [PY, "Python"],
   [SE, "Selenium"],
@@ -51,24 +59,16 @@ export const wevTools = [
   [FIREBASE, "Firebase"],
 ]
 
-export const abtPara = `
-    As a student at NU, I've had a wide array of opportunities to
-    build my programming skills and apply those skills in production
-    environments. My biggests interests are in Full-Stack web
-    development, firmware development for embedded systems, and
-    database design and administration. I pride myself on clean,
-    maintainable code and an eye for beautiful UIs. I thrive in
-    collaborative environments, being a member of the KTP Tech
-    Professional Fraternity and a team mentor in the LAUNCH
-    Entrepreneurship Program. I’m currently working at the Querrey
-    Simpson Institute for Bioelectronics to develop firmware for
-    implantable sensors for the healthcare industry.
-  `;
+export const abtPara = [
+  `Throughout my time at Northwestern University, I've honed my programming skills while applying them in a range of production environments. My primary areas of expertise lie in full-stack development, embedded systems, and API development and integration. I excel in delivering clean, maintainable code and designing intuitive, visually appealing UIs.`,
+  `I am currently working as a software engineer for Profound, an NYC-based startup revoutionizing AI search optimization to help businesses maximize visibility in LLMs. I previously worked at the Querrey Simpson Institute for Bioelectronics, where I developed firmware for implantable healthcare sensors to solve cutting-edge challenges in medical care.`,
+  `On campus, I am involved as an executive board member of Kappa Theta Pi, a professional technology fraternity, and as a team mentor in the LAUNCH Entrepreneurship Program.`
+];
 
   export const navItems = [
   { name: "Home", href: "#Home" },
   { name: "About", href: "#About" },
-  { name: "Projects", href: "#Projects" },
   { name: "Work", href: "#Work" },
+  { name: "Projects", href: "#Projects" },
   { name: "Contact", href: "#Contact" },
 ];

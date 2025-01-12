@@ -30,17 +30,6 @@ const Projects = () => {
           link="https://github.com/joshuaprunty/renu"
         />
         <WPCard
-          mainImage={WEV}
-          title="Wev - Artist Catalog and Licensing Platform"
-          description="A comprehensive full-stack site for cataloging and editing an artist's published tracks. Built with React and Firebase, and interfacing with Spotify and email APIs. Completed as a freelance client project."
-          tools={wevTools}
-          hasCode={false}
-          isFlipped={true}
-          addborder={true}
-          unpub={false}
-          link="https://wev.world"
-        />
-        <WPCard
           mainImage={VSC}
           title="NU Dining Updates"
           description="A Python webscraping script and React web interface automated with
@@ -48,7 +37,7 @@ const Projects = () => {
                 customizeable preferences."
           tools={nduTools}
           hasCode={true}
-          isFlipped={false}
+          isFlipped={true}
           addborder={false}
           unpub={false}
           link="https://github.com/joshuaprunty/DHEmailer"
@@ -59,7 +48,7 @@ const Projects = () => {
           description="A JS simulation of a genetic algorithm; evolving generations of 'cars' attempt to race a complete lap of the track without crashing. Visualized with P5.js."
           tools={gasTools}
           hasCode={true}
-          isFlipped={true}
+          isFlipped={false}
           addborder={false}
           unpub={false}
           link="https://github.com/joshuaprunty/GeneticAlgorithms"
