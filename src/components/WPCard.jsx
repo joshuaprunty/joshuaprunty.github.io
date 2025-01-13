@@ -29,9 +29,9 @@ const WPCard = ({
           <p className="my-2 p-card-p">{description}</p>
           <div className="mt-4 mb-2 d-flex justify-content-center">
             {tools.map((tool) => (
-              <div className="mx-5 d-block">
+              <div className="mx-5 text-center d-block" style={{ width: "60px" }}>
                 <img src={tool[0]} className="tool-icon" />
-                <p className="fw-light icontext">{tool[1]}</p>
+                <p className="fw-light icontext" style={{ width: "max-content", position: "relative", left: "50%", transform: "translateX(-50%)" }}>{tool[1]}</p>
               </div>
             ))}
           </div>
