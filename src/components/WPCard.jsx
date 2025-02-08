@@ -6,6 +6,8 @@ import "../sections/sections.css";
 
 import GIT from "../assets/git.png";
 import INTERNET from "../assets/internet.png";
+import { MdLockOutline } from "react-icons/md";
+
 
 const WPCard = ({
   mainImage,
@@ -16,6 +18,7 @@ const WPCard = ({
   isFlipped,
   addborder,
   unpub,
+  isPrivate,
   link
 }) => {
   return (
@@ -36,14 +39,23 @@ const WPCard = ({
             ))}
           </div>
           {hasCode ? (
-            <a
-              href={link}
-              target="_blank"
-              className="py-0 mx-auto mt-1 mb-2 mybtnsm btn btn-outline-secondary btn-sm d-flex align-items-center justify-content-center"
-            >
-              <span className="my-0 text-black me-2">Code</span>
-              <img src={GIT} className="h-50" />
-            </a>
+            isPrivate ? (
+              <a
+                className="py-0 mx-auto mt-1 mb-2 mybtnsm btn btn-outline-secondary btn-sm d-flex align-items-center justify-content-center"
+              >
+                <span className="my-0 text-black me-2">Private</span>
+                <MdLockOutline className="h-50" />
+              </a>
+            ) : (
+              <a
+                href={link}
+                target="_blank"
+                className="py-0 mx-auto mt-1 mb-2 mybtnsm btn btn-outline-secondary btn-sm d-flex align-items-center justify-content-center"
+              >
+                <span className="my-0 text-black me-2">Code</span>
+                <img src={GIT} className="h-50" />
+              </a>
+            )
           ) : unpub ? (
             <a
               href=""
